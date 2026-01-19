@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>       
+        <h1>Portifólio - João Victor Trojan</h1>
+
+         <p class="Cargo">Desenvolvedor Python</p>
+    </header>
+    <section class="Sobre">
+          <h2>Sobre mim:</h2>
+
+         <p>Sou um estudante na programação, tenho 14 anos e estou buscando mais aprendizado!</p>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+
+        <div class="Habilidades">
+            <div class="Habilidade">
+                <h3>Linguagens:</h3>
+
+                <ul>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="Habilidade">
+                <h3>Ferramentas:</h3>
+
+                <ul>
+                    <li>CustomTkinter</li>
+                    <li>Flask</li>
+                    <li>MatPLotLib</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Projetos:</h2>
+        <div class="Projetos">
+            <div class="Projeto">
+                <h3>Calculadora Cientifica:</h3>
+                <img width="300" src="{{ url_for('static', filename='images/Calculadora.png') }}" alt="(Print do Projeto da Calculadora)" />
+                <a target="_blank" href="https://github.com/JoaoVictorTrojan/Calculadora-em-Python" >Link do Projeto</a>
+            </div>
+            <div class="Projeto">
+                <h3>Conversor de Funções para Grafico:</h3>
+                <img width="600" src="{{ url_for('static', filename='images/GraficoFunções.png') }}" alt="(Print do Projeto do Grafico de Funções)" />
+                <a target="_blank" href="https://github.com/JoaoVictorTrojan/Conversor-de-Funcao-para-Grafico" >Link do Projeto</a>
+            </div>
+            <div class="Projeto">
+                <h3>Sistema de Login/Cadastro:</h3>
+                <img width="300" src="{{ url_for('static', filename='images/SistemaLogin.png') }}" alt="(Print do Projeto de Sistema de Login)" />
+                <a target="_blank" href="https://github.com/JoaoVictorTrojan/Sistema-login-Cadastro" >Link do Projeto</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
