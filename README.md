@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio!
 Aqui você encontra alguns dos meus projetos, estudos e experiências na área de tecnologia e desenvolvimento.
 
 <p align="center">
-  <img src="Styles/Images/portifolio.jpeg" alt="Preview do site" width="600">
+  <img src="Static/Images/portifolio.jpeg" alt="Preview do site" width="600">
 </p>
 
 ---
